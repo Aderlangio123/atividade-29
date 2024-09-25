@@ -19,3 +19,6 @@ while True:
 alunos_presentes = len(alunos)
 print("alunos presentes: ", alunos_presentes)
 print(alunos)
+
+if alunos_presentes < 5:
+    print("Aviso: a quantidade de alunos presentes é inferior a 5. Considere revisar a lista de chamadas!")
